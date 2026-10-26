@@ -178,7 +178,7 @@ However we have also seen that any configuration you do in a running container i
 Docker provides tools to allow us to create new container images which are permanently available for us to use.
 The way to control this is through a `Dockerfile`
 
-(This example is inspired by [dockerizing apache on ubuntu 2204](https://dev.to/donfiealex/dockerizing-apache-on-ubuntu-2204-a-practical-approach-2gbf)
+( This example is inspired by [dockerizing apache on ubuntu 2204](https://dev.to/donfiealex/dockerizing-apache-on-ubuntu-2204-a-practical-approach-2gbf) )
 
 Create a folder called `docker-apache` and inside that folder create a file called `Dockerfile` with the following contents
 

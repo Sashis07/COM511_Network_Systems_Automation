@@ -16,7 +16,7 @@ services:
     restart: unless-stopped
     
   apache-2:
-    image: my-apache2                     # uses the imge you built in the previous step
+    image: my-apache2                     # uses the image you built in the previous step
     container_name: apache-2
     ports:
       - "8082:80"

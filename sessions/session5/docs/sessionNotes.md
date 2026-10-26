@@ -44,7 +44,7 @@ For now we will start by installing and testing docker using a simple docker ima
 THe first set of examples will use Docker Desktop
 
 ---
-**Exercise 5.1**
+**Exercise 5.1 Using Docker Desktop**
 
 Go through the exercises in  [Installing and using Docker Desktop](./InstalingAndUsingDockerDesktop.md).
 * Installing Docker Desktop (if not installed)
@@ -56,7 +56,7 @@ The second set of examples uses Vagrant to install docker on an Ubuntu VM.
 After that, you can do the same exercises as in Exercise 5.1 above.
 
 ---
-**Exercise 5.2**
+**Exercise 5.2 Running Docker in a Linux machine (using Vagrant)**
 
 Go through the exercises in  [vagrant-examples/example5-1](../vagrant-examples/example5_1)
 * Installing Docker in Ubuntu using vagrant
