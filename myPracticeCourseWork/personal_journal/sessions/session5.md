@@ -5,7 +5,7 @@
 ## Topics covered
 *What topics were covered in this session*
 
-
+   ![alt text](./images/Screenshot 2026-10-26 113631.png "Figure Screenshot 2026-10-26 113631.png")
 
 ## Personal Notes and research following this session
 *Which class sessions and personal research refers to technology in this proposal. Link to examples.*
