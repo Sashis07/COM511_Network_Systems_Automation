@@ -3,7 +3,6 @@
 # COM511 Network Systems Automation - Session 1
 
 ## Topics covered
-*What topics were covered in this session*
 Exercise 
 In Session 1, I learned about Git and GitHub, operating systems, virtualisation, Vagrant, Linux package management, web servers, networking and automated provisioning.
 
@@ -22,7 +21,6 @@ Exercise 1.4 — Automated Apache installation using Vagrant
 Exercise 1.5 — Rocky Linux Apache web server configuration
 
 ## Personal Notes and research following this session
-*Which class sessions and personal research refers to technology in this proposal. Link to examples.*
 
 Git and GitHub
 
@@ -69,7 +67,7 @@ Apache documentation
 Rocky Linux documentation
 
 ## Exercises and results
-*What exercises did you complete. What results. Screen shots and notes*
+
 Exercise 1.1 — Git and GitHub
 
 Status: Completed
@@ -110,12 +108,6 @@ Result
 
 I created my own fork and prepared a structure for storing my personal learning record.
 
-Screenshot evidence
-
-[Insert screenshot of my GitHub repository]
-
-[Insert screenshot of the personal journal in Eclipse]
-
 Exercise 1.2 — VirtualBox and Linux Virtualisation
 
 Status: Completed
@@ -149,12 +141,6 @@ ip address displays network interfaces and IP addresses.
 Result
 
 I gained experience working with a Linux virtual machine and understanding the difference between host and guest operating systems.
-
-Screenshot evidence
-
-[Insert screenshot of VirtualBox showing the Linux VM]
-
-[Insert screenshot of the Linux terminal]
 
 Exercise 1.3 — Vagrant Networking and Manual Apache Installation
 
@@ -213,13 +199,6 @@ Result
 
 I completed the manual Apache and Vagrant networking exercise and learned how a service running inside a virtual machine can be accessed from the host.
 
-Screenshot evidence
-
-[Insert screenshot of the Ubuntu Apache service]
-
-[Insert screenshot of the Vagrantfile port-forwarding configuration]
-
-[Insert screenshot of the Ubuntu Apache webpage]
 
 Exercise 1.4 — Automating Apache Installation
 
@@ -273,13 +252,6 @@ Result
 
 I completed the automated Apache installation exercise and learned how provisioning scripts can make virtual machine configuration more consistent and repeatable.
 
-Screenshot evidence
-
-[Insert screenshot of the Ubuntu provisioning script]
-
-[Insert screenshot of the successful Vagrant provisioning output]
-
-[Insert screenshot of the Apache web page]
 
 Exercise 1.5 — Rocky Linux Web Server
 
@@ -389,21 +361,9 @@ I used vagrant port and discovered that the HTTP port forwarding had not been en
 
 After enabling the configuration and reloading Vagrant, the webpage became accessible.
 
-Screenshot evidence
-
-[Insert screenshot of the Rocky Linux terminal]
-
-[Insert screenshot of the Apache service status]
-
-[Insert screenshot of the firewall configuration]
-
-[Insert screenshot of the Vagrantfile]
-
-[Insert screenshot of the successful webpage in Windows]
-
 
 ## Summary of learning
-*What did you learn through these exercises*
+
 Through Session 1, I developed practical knowledge of Git, GitHub, virtualisation, Vagrant, Linux administration and basic infrastructure automation.
 
 I learned how GitHub can be used to maintain coursework and how VirtualBox allows Linux operating systems to run as virtual machines on Windows.
