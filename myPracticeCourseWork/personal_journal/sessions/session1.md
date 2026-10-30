@@ -30,7 +30,7 @@ Git is a version control system that records changes made to files. GitHub is an
 
 I learned that version control is important for infrastructure automation because configuration files and scripts can be tracked, reviewed and restored if necessary.
 
-Virtualisation
+Virtualisation 
 
 Virtualisation allows a computer to run multiple operating systems through virtual machines.
 
