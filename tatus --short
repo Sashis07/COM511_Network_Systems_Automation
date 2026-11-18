@@ -1,0 +1,130 @@
+ .../images/Screenshot 2026-10-26 113631.png        | Bin [31m0[m -> [32m125388[m bytes
+ .../images/Screenshot 2026-10-26 113841.png        | Bin [31m0[m -> [32m67607[m bytes
+ .../images/Screenshot 2026-10-26 114048.png        | Bin [31m0[m -> [32m126060[m bytes
+ .../images/Screenshot 2026-10-26 121452_5.2.png    | Bin [31m0[m -> [32m348846[m bytes
+ .../images/Screenshot 2026-10-26 121533_5.2.png    | Bin [31m0[m -> [32m46378[m bytes
+ .../images/Screenshot 2026-10-26 121913_5.2.png    | Bin [31m0[m -> [32m72608[m bytes
+ .../session2/vagrant-examples/Vagrantfile          |  77 [32m++++[m
+ myPracticeCourseWork/session5/README.MD            |   6 [32m+[m
+ .../docs/InstalingAndUsingDockerDesktop.md         | 282 [32m+++++++++++++[m
+ .../session5/docs/images/.gitignore                |   0
+ .../session5/docs/images/DockerDesktop.png         | Bin [31m0[m -> [32m115535[m bytes
+ .../docs/images/WindowsStartDockerDesktop.png      | Bin [31m0[m -> [32m261554[m bytes
+ .../session5/docs/images/dockerLayers.png          | Bin [31m0[m -> [32m97404[m bytes
+ myPracticeCourseWork/session5/docs/sessionNotes.md |  65 [32m+++[m
+ .../session5/vagrant-examples/example5_1/README.md |  44 [32m++[m
+ .../vagrant-examples/example5_1/Vagrantfile        |  83 [32m++++[m
+ .../docker-examples/docker-apache/Dockerfile       |  12 [32m+[m
+ .../example5_1/generate-ansible-ssh.sh             |  39 [32m++[m
+ .../example5_1/provision-users-ubuntu.sh           |  26 [32m++[m
+ myPracticeCourseWork/session6/README.MD            |   5 [32m+[m
+ .../session6/docker-compose-examples/README.md     |   8 [32m+[m
+ .../docker-compose-examples/example6-1/README.md   |  61 [32m+++[m
+ .../example6-1/container-fs/apache2/Dockerfile     |  12 [32m+[m
+ .../example6-1/docker-compose.yaml                 |  18 [32m+[m
+ .../docker-compose-examples/example6-2/.env        |   3 [32m+[m
+ .../docker-compose-examples/example6-2/README.md   |  65 [32m+++[m
+ .../container-fs/apache2/html/examplewebpage.html  |  47 [32m+++[m
+ .../example6-2/docker-compose.yaml                 |  22 [32m+[m
+ .../docker-compose-examples/example6-3/.env        |   5 [32m+[m
+ .../docker-compose-examples/example6-3/README.md   |  75 [32m++++[m
+ .../example6-3/docker-compose.yaml                 | 113 [32m+++++[m
+ .../images/examplenetwork-wordpress.drawio         |  82 [32m++++[m
+ .../images/examplenetwork-wordpress.drawio.png     | Bin [31m0[m -> [32m98649[m bytes
+ .../docker-compose-examples/example6-4/.env        |   3 [32m+[m
+ .../docker-compose-examples/example6-4/README.md   |  99 [32m+++++[m
+ .../example6-4/container-fs/nginx/README.md        |  94 [32m+++++[m
+ .../container-fs/nginx/certs/localhost.crt         |  22 [32m+[m
+ .../nginx/conf.d/wp-load-balencer-with-ssl.conf    |  68 [32m+++[m
+ .../example6-4/container-fs/nginx/html/index.html  |  30 [32m++[m
+ .../container-fs/nginx/private/localhost.key       |  28 [32m++[m
+ .../example6-4/docker-compose.yaml                 | 195 [32m+++++++++[m
+ .../examplenetwork-wordpress-loadbalance.drawio    | 170 [32m++++++++[m
+ ...examplenetwork-wordpress-loadbalance.drawio.png | Bin [31m0[m -> [32m204028[m bytes
+ .../example6-4/images/loadbalance-example1.png     | Bin [31m0[m -> [32m130970[m bytes
+ .../example6-4/images/wordpress1.png               | Bin [31m0[m -> [32m38486[m bytes
+ .../example6-4/images/wordpress2.png               | Bin [31m0[m -> [32m18169[m bytes
+ .../example6-4/images/wordpress3.png               | Bin [31m0[m -> [32m155648[m bytes
+ .../example6-4/images/wordpresslogo1.png           | Bin [31m0[m -> [32m12739[m bytes
+ .../session6/docs/images/.gitignore                |   0
+ myPracticeCourseWork/session6/docs/sessionNotes.md |  56 [32m+++[m
+ myPracticeCourseWork/session7/README.MD            |   5 [32m+[m
+ .../example7-1/Exercise-1-1.md                     | 227 [32m++++++++++[m
+ .../example7-1/OpenNMS_Overview-v1.1.pdf           | Bin [31m0[m -> [32m2738656[m bytes
+ .../example7-1/OpenNMS_Overview-v1.1.pptx          | Bin [31m0[m -> [32m16827498[m bytes
+ .../docker-compose-examples/example7-1/README.md   |  93 [32m+++++[m
+ .../example7-1/images/DiscoveryConfig.png          | Bin [31m0[m -> [32m41054[m bytes
+ .../example7-1/images/DiscoveryRange.png           | Bin [31m0[m -> [32m16788[m bytes
+ .../example7-1/images/adminPage.png                | Bin [31m0[m -> [32m52166[m bytes
+ .../example7-1/images/examplenetwork1.drawio       | 236 [32m+++++++++++[m
+ .../example7-1/images/examplenetwork1.drawio.png   | Bin [31m0[m -> [32m82674[m bytes
+ .../example7-1/images/grpclogo.png                 | Bin [31m0[m -> [32m8571[m bytes
+ .../example7-1/images/nodes.png                    | Bin [31m0[m -> [32m21200[m bytes
+ .../example7-1/images/nodesandinterfaces.png       | Bin [31m0[m -> [32m15033[m bytes
+ .../example7-1/minimal-minion-activemq/.env        |  10 [32m+[m
+ .../container-fs/horizon/etc/conf.d/confd.toml     |   4 [32m+[m
+ .../opt/opennms-overlay/confd/horizon-config.yaml  |  21 [32m+[m
+ .../horizon/opt/opennms-overlay/etc/.gitkeep       |   1 [32m+[m
+ .../horizon/opt/opennms-overlay/etc/log4j2.xml     | 253 [32m+++++++++++[m
+ .../opt/opennms-overlay/etc/opennms-activemq.xml   | 194 [32m+++++++++[m
+ .../horizon/opt/opennms/deploy/.gitkeep            |   1 [32m+[m
+ .../minion1/opt/minion/minion-config.yaml          |  19 [32m+[m
+ .../container-fs/snmp/snmpd.conf                   | 464 [32m+++++++++++++++++++++[m
+ .../minimal-minion-activemq/docker-compose.yaml    | 172 [32m++++++++[m
+ .../docker-compose-examples/example7-2/README.md   |   5 [32m+[m
+ .../example7-2/ansible-semaphore-example/.env      |   2 [32m+[m
+ .../ansible-semaphore-example/.gitignore           |   1 [32m+[m
+ .../.secrets-examples/README.md                    |   7 [32m+[m
+ .../.secrets-examples/ansible_root_password.txt    |   1 [32m+[m
+ .../.secrets-examples/ansible_ssh_passphrase.txt   |   2 [32m+[m
+ .../.secrets-examples/aws_access_key.txt           |   0
+ .../.secrets-examples/aws_secret_key.txt           |   0
+ .../.secrets-examples/vault_password_file.txt      |   0
+ .../example7-2/ansible-semaphore-example/README.md |  94 [32m+++++[m
+ .../ansible/project-ansibleA/README.md             | 116 [32m++++++[m
+ .../ansible/project-ansibleA/ansible.cfg           |  10 [32m+[m
+ .../project-ansibleA/collections/requirements.yml  |   3 [32m+[m
+ .../ansible/project-ansibleA/group_vars/all.yml    |   5 [32m+[m
+ .../ansible/project-ansibleA/install_apache.yml    |  31 [32m++[m
+ .../ansible/project-ansibleA/inventory.ini         |   7 [32m+[m
+ .../ansible/project-ansibleA/load-ssh-withpass.yml |  63 [32m+++[m
+ .../roles/install-apache2/tasks/Debian.yml         |  13 [32m+[m
+ .../roles/install-apache2/tasks/Rhel.yml           |  13 [32m+[m
+ .../roles/install-apache2/tasks/main.yml           |   8 [32m+[m
+ .../roles/load-ssh-keys/tasks/main.yml             |  11 [32m+[m
+ .../roles/uninstall-apache2/tasks/Debian.yml       |  13 [32m+[m
+ .../roles/uninstall-apache2/tasks/Rhel.yml         |  13 [32m+[m
+ .../roles/uninstall-apache2/tasks/main.yml         |   8 [32m+[m
+ .../ansible/project-ansibleA/uninstall_apache.yml  |  31 [32m++[m
+ .../ansible/project-ansibleB/README.md             | 116 [32m++++++[m
+ .../ansible/project-ansibleB/ansible.cfg           |  10 [32m+[m
+ .../project-ansibleB/collections/requirements.yml  |   3 [32m+[m
+ .../ansible/project-ansibleB/group_vars/all.yml    |   5 [32m+[m
+ .../project-ansibleB/install_apache_with_pass.yml  |  10 [32m+[m
+ .../ansible/project-ansibleB/inventory.ini         |   7 [32m+[m
+ .../roles/install-apache2/tasks/Debian.yml         |  13 [32m+[m
+ .../roles/install-apache2/tasks/Rhel.yml           |  13 [32m+[m
+ .../roles/install-apache2/tasks/main.yml           |   8 [32m+[m
+ .../roles/uninstall-apache2/tasks/Debian.yml       |  13 [32m+[m
+ .../roles/uninstall-apache2/tasks/Rhel.yml         |  13 [32m+[m
+ .../roles/uninstall-apache2/tasks/main.yml         |   8 [32m+[m
+ .../uninstall_apache_with_pass.yml                 |  10 [32m+[m
+ .../container-fs/ansible/inventory/.gitkeep        |   0
+ .../container-fs/semaphore/.gitkeep                |   0
+ .../container-fs/semaphore/Dockerfile              |  37 [32m++[m
+ .../semaphore/import-project/test_project_1.json   | 160 [32m+++++++[m
+ .../container-fs/share/.gitkeep                    |   0
+ .../share/generate-ansible-user-ssh.sh             |  68 [32m+++[m
+ .../container-fs/share/password-client.sh          |   6 [32m+[m
+ .../container-fs/share/ssh-pass.sh                 |  12 [32m+[m
+ .../container-fs/share/wait-for-it.sh              | 183 [32m++++++++[m
+ .../container-fs/share/with-secrets.sh             |  15 [32m+[m
+ .../container-fs/systemd/almalinux/Dockerfile      |  31 [32m++[m
+ .../container-fs/systemd/ubuntu/Dockerfile         |  25 [32m++[m
+ .../ansible-semaphore-example/docker-compose.yml   | 221 [32m++++++++++[m
+ .../session7/docs/images/.gitignore                |   0
+ myPracticeCourseWork/session7/docs/sessionNotes.md |  49 [32m+++[m
+ myPracticeCourseWork/session8/README.MD            |   9 [32m+[m
+ .../session8/docs/images/.gitignore                |   0
+ myPracticeCourseWork/session8/docs/sessionNotes.md |  14 [32m+[m
+ 129 files changed, 5131 insertions(+)
